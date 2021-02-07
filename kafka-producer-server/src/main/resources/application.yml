@@ -1,0 +1,15 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+  port: 1901
+spring:
+  profiles:
+    active: dev
+  application:
+    name: kafka-producer-server
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+
